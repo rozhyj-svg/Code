@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Madlibs App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Madlibs</h1>
+
+    <label for="templateSelect">Choose a template</label>
+    <select id="templateSelect"></select>
+
+    <form id="inputsForm"></form>
+
+    <div class="controls">
+      <button id="generateBtn">Generate Story</button>
+      <button id="clearBtn" type="button">Clear</button>
+    </div>
+
+    <section id="output" aria-live="polite"></section>
+  </main>
+
+  <script src="generator.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
