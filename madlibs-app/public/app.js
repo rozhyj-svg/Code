@@ -9,7 +9,12 @@
       id: 't2',
       title: 'Space Adventure',
       text: 'In space, the {noun} was {adj}. The astronaut said, "{exclamation}!" and {verbPast} toward the {place}.'
-    }
+    },
+    {
+  id: 't3',
+  title: 'Camping Trip',
+  text: 'We pitched our {tentAdj} tent beside the {noun}. At midnight the {animal} {verbPast} loudly and we {verbPast2}.'
+}
   ];
 
   const templateSelect = document.getElementById('templateSelect');
